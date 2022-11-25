@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HoloLensDemo.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\HoloLensDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\HoloLensDemo.cpp.obj"
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\HoloLensDemoGameModeBase.cpp.obj"
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\HoloLensDemo.init.gen.cpp.obj"
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\HoloLensDemoGameModeBase.gen.cpp.obj"
+"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\Default.rc2.res"
+/OUT:"C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\UE4Editor-HoloLensDemo.lib"

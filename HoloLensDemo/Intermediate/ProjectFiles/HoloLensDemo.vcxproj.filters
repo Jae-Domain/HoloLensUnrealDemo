@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HoloLensDemo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B6EC3C94-385E-408B-B12E-946870EAEF37}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoloLensDemo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HoloLensDemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C552BB88-86D9-4CE9-B1C2-F348D2755873}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HoloLensDemo">
+      <UniqueIdentifier>{23F43B97-B182-41F9-865D-02155DFB1E52}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoloLensDemo\HoloLensDemo.Build.cs">
+      <Filter>Source\HoloLensDemo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HoloLensDemo\HoloLensDemo.cpp">
+      <Filter>Source\HoloLensDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoloLensDemo\HoloLensDemo.h">
+      <Filter>Source\HoloLensDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoloLensDemo\HoloLensDemoGameModeBase.cpp">
+      <Filter>Source\HoloLensDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoloLensDemo\HoloLensDemoGameModeBase.h">
+      <Filter>Source\HoloLensDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

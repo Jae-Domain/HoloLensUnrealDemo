@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HoloLensDemo",
+			"Path": "C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HoloLensDemoEditor",
+			"Path": "C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

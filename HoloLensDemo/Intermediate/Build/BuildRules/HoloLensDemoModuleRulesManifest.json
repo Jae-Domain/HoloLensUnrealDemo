@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo\\HoloLensDemo.Build.cs",
+		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo.Target.cs",
+		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemoEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
