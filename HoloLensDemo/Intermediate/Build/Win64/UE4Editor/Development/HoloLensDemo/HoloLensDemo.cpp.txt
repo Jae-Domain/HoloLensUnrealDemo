@@ -1,2 +1,2 @@
-C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\Definitions.HoloLensDemo.h
-C:\Users\janelle9\Documents\GitHub\HoloLensUnrealDemo\HoloLensDemo\Source\HoloLensDemo\HoloLensDemo.h
+H:\Unreal\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\Definitions.HoloLensDemo.h
+H:\Unreal\HoloLensUnrealDemo\HoloLensDemo\Source\HoloLensDemo\HoloLensDemo.h

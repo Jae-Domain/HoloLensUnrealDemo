@@ -1,8 +1,15 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo\\HoloLensDemo.Build.cs",
-		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo.Target.cs",
-		"C:\\Users\\janelle9\\Documents\\GitHub\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemoEditor.Target.cs"
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo\\HoloLensDemo.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\UXTools\\UXTools.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\UXToolsEditor\\UXToolsEditor.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\UXToolsInput\\UXToolsInput.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\UXToolsShaders\\UXToolsShaders.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\XRSimulationEditor\\XRSimulationEditor.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\XRSimulation\\XRSimulation.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Plugins\\UXTools\\Source\\XRSimulationInput\\XRSimulationInput.Build.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemo.Target.cs",
+		"H:\\Unreal\\HoloLensUnrealDemo\\HoloLensDemo\\Source\\HoloLensDemoEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

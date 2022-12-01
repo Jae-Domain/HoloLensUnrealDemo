@@ -1,0 +1,4 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (H:\Unreal\HoloLensUnrealDemo).
+  Creating makefile for HoloLensDemoEditor (.uproject file is newer)
+UnrealBuildTool : error : Could not find definition for module 'SubobjectEditor', (referenced via Target -> UXToolsEditor.Build.cs)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""H:\Program Files (x86)\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" HoloLensDemoEditor Win64 Development -Project="H:\Unreal\HoloLensUnrealDemo\HoloLensDemo\HoloLensDemo.uproject" -WaitMutex -FromMsBuild" exited with code 6.
