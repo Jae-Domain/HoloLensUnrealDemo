@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\source\\eyeswipe\\eyeswipegamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\eyeswipeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\unrealeditor\\development\\eyeswipe\\definitions.eyeswipe.h",
+            "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\source\\eyeswipe\\eyeswipegamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\unrealeditor\\inc\\eyeswipe\\eyeswipegamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

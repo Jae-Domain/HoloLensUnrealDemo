@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EyeSwipe.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\EyeSwipeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\EyeSwipe.cpp.obj"
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\EyeSwipeGameModeBase.cpp.obj"
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\EyeSwipe.init.gen.cpp.obj"
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\EyeSwipeGameModeBase.gen.cpp.obj"
+"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\Default.rc2.res"
+/OUT:"C:\Users\Nitish\Documents\CS 415\EyeSwipe\Intermediate\Build\Win64\UnrealEditor\Development\EyeSwipe\UnrealEditor-EyeSwipe.lib"

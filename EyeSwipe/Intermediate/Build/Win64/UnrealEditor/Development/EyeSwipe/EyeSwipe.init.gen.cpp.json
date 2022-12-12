@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\unrealeditor\\inc\\eyeswipe\\eyeswipe.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\eyeswipeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\nitish\\documents\\cs 415\\eyeswipe\\intermediate\\build\\win64\\unrealeditor\\development\\eyeswipe\\definitions.eyeswipe.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

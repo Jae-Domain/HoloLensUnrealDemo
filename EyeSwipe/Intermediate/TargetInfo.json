@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EyeSwipe",
+			"Path": "C:\\Users\\Nitish\\Documents\\CS 415\\EyeSwipe\\Source\\EyeSwipe.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EyeSwipeEditor",
+			"Path": "C:\\Users\\Nitish\\Documents\\CS 415\\EyeSwipe\\Source\\EyeSwipeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

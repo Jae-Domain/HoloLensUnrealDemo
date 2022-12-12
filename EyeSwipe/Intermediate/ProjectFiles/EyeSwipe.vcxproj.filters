@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EyeSwipe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EyeSwipe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EyeSwipeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UXTools">
+      <UniqueIdentifier>{8DB8348F-2E10-35A5-A330-3B5523CA3138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UXTools\Source">
+      <UniqueIdentifier>{563D0656-06AD-32E1-B109-FDB5666B7FBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UXTools\Source\UXTools">
+      <UniqueIdentifier>{C483E6A5-978D-3737-87B8-1E30405AD4E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\UXTools\UXTools.Build.cs">
+      <Filter>Plugins\UXTools\Source\UXTools</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private">
+      <UniqueIdentifier>{0E8375B1-6E89-3B1C-89A0-DD74A36D1B42}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\UXTools.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Behaviors">
+      <UniqueIdentifier>{F6317F90-0CB1-3495-9F5E-0B1A10D7C8B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Behaviors\UxtFollowComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Behaviors\UxtHandConstraintComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Behaviors\UxtPalmUpConstraintComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Behaviors\UxtTapToPlaceComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Behaviors</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Controls">
+      <UniqueIdentifier>{F88EDA2D-856D-3574-AFD9-988E5C8BF6BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtBackPlateComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtBaseObjectCollection.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtBasePressableButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtBoundsControlComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtBoundsControlConfig.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtButtonBrush.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtCollectionObject.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtFarBeamComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtFarCursorComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtFingerCursorComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtIconBrush.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPinchSliderActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPinchSliderComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableButtonComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableCheckButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableRadioButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableSwitchButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtPressableToggleButtonActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtRingCursorComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtScrollingObjectCollection.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtSurfaceMagnetismComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtTextBrush.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtTextRenderActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtTextRenderComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtToggleGroupComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtToggleStateComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtTouchableVolumeComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtUIElementComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Controls\UxtWidgetComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Controls</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\HandTracking">
+      <UniqueIdentifier>{4F4B63B7-AE97-36B9-BA60-F5B3E27DF70E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\HandTracking\IUxtHandTracker.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\HandTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\HandTracking\UxtTouchBasedHandTrackerComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\HandTracking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\HandTracking\UxtTouchBasedHandTrackerComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\HandTracking</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\HandTracking\UxtTouchBasedHandTrackerSubsystem.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\HandTracking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\HandTracking\UxtTouchBasedHandTrackerSubsystem.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\HandTracking</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Input">
+      <UniqueIdentifier>{B22F4648-32D5-34C2-98E2-FAECC82E1F72}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtFarPointerComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtHandInteractionActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtHandProximityMesh.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtHandProximityMesh.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtInputSubsystem.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtNearPointerComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtPointerComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtPointerFocus.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Input\UxtPointerFocus.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Input</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Interactions">
+      <UniqueIdentifier>{B32E0B6D-31A2-34C4-8DD8-E40E1F0DBB3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtGenericManipulatorComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtGrabTarget.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtGrabTargetComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtInteractionUtils.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtInteractionUtils.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtManipulatorComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtManipulatorComponentBase.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\UxtPokeTarget.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints">
+      <UniqueIdentifier>{9E0AD447-547F-38C2-AE9C-A06C417581A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtFaceUserConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtFixedDistanceConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtFixedRotationToUserConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtFixedRotationToWorldConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtMaintainApparentSizeConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtMoveAxisConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtRotationAxisConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints\UxtTransformConstraint.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Constraints</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation">
+      <UniqueIdentifier>{3CE17E8A-228E-3ED3-AABF-B42B7DB57920}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtManipulationMoveLogic.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtManipulationMoveLogic.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtTwoHandRotateLogic.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtTwoHandRotateLogic.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtTwoHandScaleLogic.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation\UxtTwoHandScaleLogic.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Interactions\Manipulation</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Tooltips">
+      <UniqueIdentifier>{CF8239A9-DAC1-3C1B-94DE-ED74DAEDDCAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Tooltips\UxtTooltipActor.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Tooltips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Tooltips\UxtTooltipSpawnerComponent.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Tooltips</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Private\Utils">
+      <UniqueIdentifier>{58AB1068-5CE0-3677-A453-78EC961076F9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Utils\UxtFunctionLibrary.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Utils\UxtInternalFunctionLibrary.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Utils</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Private\Utils\UxtInternalFunctionLibrary.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Utils</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXTools\Private\Utils\UxtMathUtilsFunctionLibrary.cpp">
+      <Filter>Plugins\UXTools\Source\UXTools\Private\Utils</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public">
+      <UniqueIdentifier>{5846FEDA-FD31-3685-B95C-F217A086CEB5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\UXTools.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Behaviors">
+      <UniqueIdentifier>{CE7325BC-25C8-3C20-9D47-931BA437691F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Behaviors\UxtFollowComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Behaviors\UxtHandConstraintComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Behaviors\UxtPalmUpConstraintComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Behaviors\UxtTapToPlaceComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Behaviors</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Controls">
+      <UniqueIdentifier>{0CE20FFF-FF69-3F18-8D53-6AA7B557D13A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtBackPlateComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtBaseObjectCollection.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtBasePressableButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtBoundsControlComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtBoundsControlConfig.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtButtonBrush.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtCollectionObject.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtFarBeamComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtFarCursorComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtFingerCursorComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtIconBrush.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPinchSliderActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPinchSliderComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableButtonComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableCheckButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableRadioButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableSwitchButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtPressableToggleButtonActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtRingCursorComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtScrollingObjectCollection.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtSurfaceMagnetismComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtTextBrush.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtTextRenderActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtTextRenderComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtToggleGroupComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtToggleStateComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtTouchableVolumeComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtUIElementComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Controls\UxtWidgetComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Controls</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\HandTracking">
+      <UniqueIdentifier>{E6B8A082-8C7F-358C-8988-3EB4415845C5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\HandTracking\IUxtHandTracker.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\HandTracking</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Input">
+      <UniqueIdentifier>{5F5FC6A1-CDEB-3257-BC23-C8A4CE6CD823}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Input\UxtFarPointerComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Input\UxtHandInteractionActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Input\UxtInputSubsystem.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Input\UxtNearPointerComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Input\UxtPointerComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Input</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Interactions">
+      <UniqueIdentifier>{37602514-3806-37A7-9A0B-B5276A79E6B3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtFarHandler.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtFarTarget.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtGenericManipulatorComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtGrabHandler.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtGrabTarget.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtGrabTargetComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtInteractionMode.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtManipulationFlags.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtManipulatorComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtManipulatorComponentBase.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtPokeHandler.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\UxtPokeTarget.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints">
+      <UniqueIdentifier>{F443179D-D0BA-3800-9B73-F291547CF1AE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtFaceUserConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtFixedDistanceConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtFixedRotationToUserConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtFixedRotationToWorldConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtMaintainApparentSizeConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtMoveAxisConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtRotationAxisConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints\UxtTransformConstraint.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Interactions\Constraints</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Tooltips">
+      <UniqueIdentifier>{358F2F0D-3503-3AA4-A2EB-5A69758D5077}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Tooltips\UxtTooltipActor.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Tooltips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Tooltips\UxtTooltipSpawnerComponent.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Tooltips</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXTools\Public\Utils">
+      <UniqueIdentifier>{90BD1A7B-32B3-357A-931D-321B2450FF6E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Utils\UxtFunctionLibrary.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXTools\Public\Utils\UxtMathUtilsFunctionLibrary.h">
+      <Filter>Plugins\UXTools\Source\UXTools\Public\Utils</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\UXTools\UXTools.uplugin">
+      <Filter>Plugins\UXTools</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Resources">
+      <UniqueIdentifier>{294FFA49-FF47-3909-B7D4-03EB8817FFEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Resources\Icon128.png">
+      <Filter>Plugins\UXTools\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Shaders">
+      <UniqueIdentifier>{B95B091B-AA49-3729-951F-156D93851061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UXTools\Shaders\Public">
+      <UniqueIdentifier>{66C3BB08-94F5-36B5-9571-EC7871F25C55}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Bounding_Box.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Bounding_Box_Blobs.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Bounding_Box_Edge_Face.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Button_Box.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Rounded_Edge_Thick.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\UXTools\Shaders\Public\Thick_Finger_Ring.ush">
+      <Filter>Plugins\UXTools\Shaders\Public</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\UXToolsEditor">
+      <UniqueIdentifier>{AE4DDE1D-DCFB-3080-A408-4F6254C29906}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\UXToolsEditor\UXToolsEditor.Build.cs">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\UXToolsEditor\Private">
+      <UniqueIdentifier>{3B865C54-F36F-3CBC-8C5E-AE5CCE1246DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtConstraintPickerWidget.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtIconBrushCustomization.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtIconBrushEditorUtilityWidget.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtManipulatorComponentCustomization.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UXToolsEditor.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtPressableButtonComponentVisualizer.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Private\UxtTooltipSpawnerComponentVisualizer.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXToolsEditor\Public">
+      <UniqueIdentifier>{764CDC7B-B2FF-3AAC-B0A0-1AABB07C3AA2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtConstraintPickerWidget.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtIconBrushCustomization.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtIconBrushEditorUtilityWidget.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtManipulatorComponentCustomization.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UXToolsEditor.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtPressableButtonComponentVisualizer.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsEditor\Public\UxtTooltipSpawnerComponentVisualizer.h">
+      <Filter>Plugins\UXTools\Source\UXToolsEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXToolsInput">
+      <UniqueIdentifier>{CBED7564-2B9A-320C-86EF-492DD137857D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\UXToolsInput\UXToolsInput.Build.cs">
+      <Filter>Plugins\UXTools\Source\UXToolsInput</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\UXToolsInput\Private">
+      <UniqueIdentifier>{55E56DD4-4A5E-3861-8040-E2EE235956FE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtDefaultHandTracker.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtDefaultHandTracker.h">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtDefaultHandTrackerSubsystem.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtDefaultHandTrackerSubsystem.h">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UXToolsInputModule.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtXRSimulationSubsystem.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtXRSimulationSubsystem.h">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtXRSimulationViewExtension.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsInput\Private\UxtXRSimulationViewExtension.h">
+      <Filter>Plugins\UXTools\Source\UXToolsInput\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\UXToolsShaders">
+      <UniqueIdentifier>{393F645A-D7F4-3223-96B0-9D01EE72835A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\UXToolsShaders\UXToolsShaders.Build.cs">
+      <Filter>Plugins\UXTools\Source\UXToolsShaders</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\UXToolsShaders\Private">
+      <UniqueIdentifier>{A19F4DA7-8A19-3DB4-82D5-5F6DCD51AFF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\UXToolsShaders\Private\UXToolsShaders.cpp">
+      <Filter>Plugins\UXTools\Source\UXToolsShaders\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\UXToolsShaders\Public">
+      <UniqueIdentifier>{CCE7EF24-9754-34B3-B5F5-B6951C1E07AB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\UXToolsShaders\Public\UXToolsShaders.h">
+      <Filter>Plugins\UXTools\Source\UXToolsShaders\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\XRSimulation">
+      <UniqueIdentifier>{92609E37-4C91-338C-87E8-4E3985D57798}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\XRSimulation\XRSimulation.Build.cs">
+      <Filter>Plugins\UXTools\Source\XRSimulation</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\XRSimulation\Private">
+      <UniqueIdentifier>{41C4A8C8-AA52-3A23-B079-1CB58F8B7F52}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationActor.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationHeadMovementComponent.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationHMD.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationModule.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationRuntimeSettings.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulation\Private\XRSimulationState.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\XRSimulation\Public">
+      <UniqueIdentifier>{EEDCEADF-0790-3A3F-9B68-2902D40EC5E8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulation\Public\XRSimulationActor.h">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulation\Public\XRSimulationHeadMovementComponent.h">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulation\Public\XRSimulationHMD.h">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulation\Public\XRSimulationRuntimeSettings.h">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulation\Public\XRSimulationState.h">
+      <Filter>Plugins\UXTools\Source\XRSimulation\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UXTools\Source\XRSimulationEditor">
+      <UniqueIdentifier>{6F445A36-DC22-37B2-8B0A-DCBA069B827D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\XRSimulationEditor\XRSimulationEditor.Build.cs">
+      <Filter>Plugins\UXTools\Source\XRSimulationEditor</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\XRSimulationEditor\Private">
+      <UniqueIdentifier>{79146246-6AB3-3F8A-B7BC-34725A368996}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulationEditor\Private\XRSimulationEditorModule.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulationEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UXTools\Source\XRSimulationInput">
+      <UniqueIdentifier>{7516CA1C-4FE0-3173-A5C1-C61F113F2E41}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UXTools\Source\XRSimulationInput\XRSimulationInput.Build.cs">
+      <Filter>Plugins\UXTools\Source\XRSimulationInput</Filter>
+    </None>
+    <Filter Include="Plugins\UXTools\Source\XRSimulationInput\Private">
+      <UniqueIdentifier>{49B3E085-DF0F-3E5F-AD97-E1D5D02D6DA5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulationInput\Private\XRSimulationInputDevice.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulationInput\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UXTools\Source\XRSimulationInput\Private\XRSimulationInputDevice.h">
+      <Filter>Plugins\UXTools\Source\XRSimulationInput\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UXTools\Source\XRSimulationInput\Private\XRSimulationInputModule.cpp">
+      <Filter>Plugins\UXTools\Source\XRSimulationInput\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\EyeSwipe">
+      <UniqueIdentifier>{82515FDB-DC7A-34DB-8398-1910D0855211}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EyeSwipe\EyeSwipe.Build.cs">
+      <Filter>Source\EyeSwipe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EyeSwipe\EyeSwipe.cpp">
+      <Filter>Source\EyeSwipe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EyeSwipe\EyeSwipe.h">
+      <Filter>Source\EyeSwipe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EyeSwipe\EyeSwipeGameModeBase.cpp">
+      <Filter>Source\EyeSwipe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EyeSwipe\EyeSwipeGameModeBase.h">
+      <Filter>Source\EyeSwipe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
