@@ -1,0 +1,29 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\shipping\\xrsimulation\\module.xrsimulation.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\eyeswipe\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\shipping\\xrsimulation\\definitions.xrsimulation.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulation.init.gen.cpp",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationactor.gen.cpp",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\source\\xrsimulation\\public\\xrsimulationactor.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\headmounteddisplay\\public\\headmounteddisplaytypes.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\headmounteddisplay\\public\\imotioncontroller.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\headmounteddisplay\\headmounteddisplaytypes.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\source\\xrsimulation\\public\\xrsimulationstate.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationactor.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationheadmovementcomponent.gen.cpp",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\source\\xrsimulation\\public\\xrsimulationheadmovementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\engine\\movementcomponent.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationheadmovementcomponent.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationruntimesettings.gen.cpp",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\source\\xrsimulation\\public\\xrsimulationruntimesettings.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\plugins\\uxtools\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\xrsimulation\\xrsimulationruntimesettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

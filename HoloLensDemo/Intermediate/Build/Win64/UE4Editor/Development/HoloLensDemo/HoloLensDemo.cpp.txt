@@ -1,2 +1,0 @@
-H:\Unreal\HoloLensUnrealDemo\HoloLensDemo\Intermediate\Build\Win64\UE4Editor\Development\HoloLensDemo\Definitions.HoloLensDemo.h
-H:\Unreal\HoloLensUnrealDemo\HoloLensDemo\Source\HoloLensDemo\HoloLensDemo.h

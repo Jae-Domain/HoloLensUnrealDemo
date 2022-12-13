@@ -1,0 +1,72 @@
+"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Source\UXToolsShaders\Private\UXToolsShaders.cpp"
+/I .
+/I "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Source\UXToolsShaders\Private"
+/I Runtime
+/I Runtime\Projects\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public\HoloLens
+/I Runtime\Core\Public
+/I Runtime\Json\Public
+/I Runtime\RenderCore\Public
+/I Runtime\RHI\Public
+/I "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Source"
+/I "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Source\UXToolsShaders\Public"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Intermediate\Build\HoloLens\x64\EyeSwipe\Shipping\Core\SharedPCH.Core.ShadowErrors.h"
+/FI"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Intermediate\Build\HoloLens\x64\UnrealGame\Shipping\UXToolsShaders\Definitions.UXToolsShaders.h"
+/Yu"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Intermediate\Build\HoloLens\x64\EyeSwipe\Shipping\Core\SharedPCH.Core.ShadowErrors.h"
+/Fp"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Intermediate\Build\HoloLens\x64\EyeSwipe\Shipping\Core\SharedPCH.Core.ShadowErrors.h.pch"
+/Fo"C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Intermediate\Build\HoloLens\x64\UnrealGame\Shipping\UXToolsShaders\UXToolsShaders.cpp.obj"
+/sourceDependencies "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Plugins\UXTools\Intermediate\Build\HoloLens\x64\UnrealGame\Shipping\UXToolsShaders\UXToolsShaders.cpp.json"
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/wd4702
+/wd4467
+/wd4458
+/wd4668
+/AI"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references"
+/FU"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references\platform.winmd"
+/TP
+/GR-
+/W4
+/std:c++17
+/ZW
+/ZW:nostdlib
+/FU"C:\Program Files (x86)\Windows Kits\10\References\10.0.22621.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\10.0.22621.0\Windows.Foundation.UniversalApiContract\15.0.0.0\Windows.Foundation.UniversalApiContract.winmd"

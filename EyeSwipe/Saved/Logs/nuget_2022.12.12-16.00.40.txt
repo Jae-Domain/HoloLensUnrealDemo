@@ -1,0 +1,5 @@
+Feeds used:
+  C:\Users\Nitish\.nuget\packages\
+  https://api.nuget.org/v3/index.json
+  C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+All packages listed in C:\Program Files\Epic Games\UE_5.0\Engine\Plugins\Marketplace\MicrosoftOpenXR\Source\NuGetModule\packages.config are already installed.

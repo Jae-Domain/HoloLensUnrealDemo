@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\source\\eyeswipe\\eyeswipegamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\eyeswipe\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\unrealgame\\shipping\\eyeswipe\\definitions.eyeswipe.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\source\\eyeswipe\\eyeswipegamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\eyeswipe\\eyeswipegamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

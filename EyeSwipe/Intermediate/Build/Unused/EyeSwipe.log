@@ -1,0 +1,52 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\Nitish\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo).
+  Creating makefile for EyeSwipe (no existing makefile)
+  Using x64 architecture for deploying to HoloLens device
+  Building using Windows SDK version 10.0.22621.0 for HoloLens and compiler VisualStudio2022 14.29.30146
+  Your Windows SDK version (10.0.22621.0) for HoloLens is newer than the highest tested with this version of UBT (10.0.18362.2147483647).  This is probably fine, but if you encounter issues consider using an earlier SDK.
+  Feeds used:
+    C:\Users\Nitish\.nuget\packages\
+    https://api.nuget.org/v3/index.json
+    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+  All packages listed in C:\Program Files\Epic Games\UE_5.0\Engine\Plugins\Marketplace\MicrosoftOpenXR\Source\NuGetModule\packages.config are already installed.
+  Parsing headers for EyeSwipe
+    Running UnrealHeaderTool "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\EyeSwipe.uproject" "C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Intermediate\Build\HoloLens\x64\EyeSwipe\Shipping\EyeSwipe.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Nitish\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for EyeSwipe in 8.9590156 seconds
+  Building EyeSwipe...
+  Using Visual Studio 2022 14.29.30146 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+    Executing up to 4 processes, one per physical core
+    Requested 1.5 GB free memory per action, 5.7 GB available: limiting max parallel actions to 3
+  Building 22 actions with 3 processes...
+  [1/22] Compile SharedPCH.Core.ShadowErrors.cpp
+  [2/22] Compile UXToolsShaders.cpp
+  [3/22] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [4/22] Compile SharedPCH.Engine.ShadowErrors.NoUndef.cpp
+  [5/22] Compile EyeSwipeGameModeBase.cpp
+  [6/22] Compile Module.UXToolsInput.gen.cpp
+  [7/22] Compile Module.UXTools.gen.1_of_7.cpp
+  [8/22] Compile Module.UXTools.gen.5_of_7.cpp
+  [9/22] Compile Module.XRSimulation.cpp
+  [10/22] Compile EyeSwipe.init.gen.cpp
+  [11/22] Compile Module.UXTools.gen.7_of_7.cpp
+  [12/22] Compile Module.UXTools.gen.4_of_7.cpp
+  [13/22] Compile Module.UXToolsInput.cpp
+  [14/22] Compile Module.XRSimulation.gen.cpp
+  [15/22] Compile Module.UXTools.gen.2_of_7.cpp
+  [16/22] Compile EyeSwipeGameModeBase.gen.cpp
+  [17/22] Compile EyeSwipe.cpp
+  [18/22] Compile Module.UXTools.gen.6_of_7.cpp
+  [19/22] Compile Module.UXTools.gen.3_of_7.cpp
+  [20/22] Compile Module.UXTools.cpp
+  [21/22] Link EyeSwipe-HoloLens-Shippingx64.exe
+MixedRealityInteropHoloLens.lib(MixedRealityInterop.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(CameraImageCapture.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(SpatialAnchorHelper.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(HandMeshObserver.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(MeshObserver.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(SceneUnderstandingObserver.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+MixedRealityInteropHoloLens.lib(QRCodeObserver.obj) : error LNK2038: mismatch detected for 'C++/WinRT version': value '2.0.201113.7' doesn't match value '2.0.201217.4' in PCH.MicrosoftOpenXR.h.obj
+     Creating library C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Binaries\HoloLens\EyeSwipe-HoloLens-Shippingx64.lib and object C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Binaries\HoloLens\EyeSwipe-HoloLens-Shippingx64.exp
+C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\Binaries\HoloLens\EyeSwipe-HoloLens-Shippingx64.exe : fatal error LNK1319: 7 mismatches detected
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" EyeSwipe HoloLens Shipping -Project="C:\Users\Nitish\Documents\CS 415\HoloLensUnrealDemo\EyeSwipe\EyeSwipe.uproject" -WaitMutex -FromMsBuild" exited with code 6.

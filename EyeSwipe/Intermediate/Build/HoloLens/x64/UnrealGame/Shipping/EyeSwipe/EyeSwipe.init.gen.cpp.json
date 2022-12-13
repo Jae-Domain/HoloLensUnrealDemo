@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\unrealgame\\inc\\eyeswipe\\eyeswipe.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\eyeswipe\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\nitish\\documents\\cs 415\\hololensunrealdemo\\eyeswipe\\intermediate\\build\\hololens\\x64\\unrealgame\\shipping\\eyeswipe\\definitions.eyeswipe.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
